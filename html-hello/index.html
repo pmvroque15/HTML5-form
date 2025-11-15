@@ -13,49 +13,53 @@
     <title>Document</title>
   </head>
   <body>
-    
     <form>
-    <div id="payment_form">
-      <div id="payment_header">
-        <h1>Payment form example</h1>
-      </div>
-      <div>
-        <div id="error-disable">
-          <div class="text-bg-danger p-3">Danger with contrasting color</div>
+      <div id="payment_form">
+        <div id="payment_header">
+          <h1>Payment form example</h1>
         </div>
-        <fieldset>
-          <div class="row g-3">
-            <div class="col-sm-7">
-               <label>City #</label> 
-              <input
-                type="text"
-                class="form-control"
-                
-                aria-label="City"
-              />
-            </div>
-            <div class="col-sm">
+        <div>
+          <div id="error-disable">
+            <div class="text-bg-danger p-3">Danger with contrasting color</div>
+          </div>
+          <fieldset>
+            <div class="row g-3">
+              <div class="col-sm-7">
+                <label>City #</label>
+                <input type="text" class="form-control" aria-label="City" />
+              </div>
+              <div class="col-sm">
                 <label>CVC #</label>
+                <input type="text" class="form-control" aria-label="State" />
+              </div>
+              <div class="col-sm">
+                <label>Amount</label>
+                <input type="text" class="form-control" aria-label="Zip" />
+              </div>
+            </div>
+          </fieldset>
+        </div>
+        <div id="inline-form">
+          <div class="row g-3">
+            <div class="col">
+                <label>First Name</label>
               <input
                 type="text"
                 class="form-control"
                 
-                aria-label="State"
               />
             </div>
-            <div class="col-sm">
-                <label>Amount</label>
+            <div class="col">
+                <label>Last Name</label>
               <input
                 type="text"
                 class="form-control"
                 
-                aria-label="Zip"
               />
             </div>
           </div>
-        </fieldset>
+        </div>
       </div>
-    </div>
     </form>
 
     <script
