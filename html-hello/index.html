@@ -42,18 +42,39 @@
         <div id="inline-form">
           <div class="row g-3">
             <div class="col">
-                <label>First Name</label>
-              <input
-                type="text"
-                class="form-control"
-                
-              />
+              <label>First Name</label>
+              <input type="text" class="form-control" />
             </div>
             <div class="col">
-                <label>Last Name</label>
+              <label>Last Name</label>
+              <input type="text" class="form-control" />
+            </div>
+          </div>
+          <div class="row g-3">
+            <div class="col-sm-7">
+              <label>City</label>
               <input
                 type="text"
                 class="form-control"
+                placeholder="City"
+                aria-label="City"
+              />
+            </div>
+            <div class="col-sm">
+              <label>State</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected></option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-sm">
+              <label>Postal Code</label>
+              <input
+                type="text"
+                class="form-control"
+               
                 
               />
             </div>
