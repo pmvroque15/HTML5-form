@@ -6,15 +6,7 @@ body {
     
 }
 
-form {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    
-    
-    border: 1px solid black;
-   
-}
+
 
 #inline-textarea {
     display: flex;
@@ -24,11 +16,16 @@ form {
 
 #payment_form {
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     flex-direction: column;
-
-    height: 100vh;
+    
+    width: 100%;
+    max-width: 600px;
+    margin: 80px auto;
+    
 }
 
-
+#payment_header {
+    align-self: flex-start;
+}
