@@ -16,7 +16,6 @@ body {
 
 #payment_form {
     display: flex;
-    
     align-items: center;
     flex-direction: column;
     
@@ -28,4 +27,8 @@ body {
 
 #payment_header {
     align-self: flex-start;
+}
+
+#inline-form, #inline-textarea {
+    align-self: stretch;
 }
