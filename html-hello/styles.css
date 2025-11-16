@@ -1,12 +1,50 @@
 body {
     margin: 0;
     padding: 0;
+}
 
+#payment_header {
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    border-bottom: 1px solid rgb(158, 154, 154);
     
+    padding-top: 10px;
+    padding-bottom: 9px;
+}
+
+h3 {
+     margin-left: 10px;
+     
+}
+
+#first-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+#payment_form {
+    border: 2px solid rgb(158, 154, 154);
+    border-radius: 5px;
     
 }
 
+#redborder-round  {
+   
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 60%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    
+}
 
+#redtext {
+    color: rgb(82, 0, 0);
+}
+
+#first-row, #inline-form, #inline-textarea {
+    margin-right: 20px;
+    margin-left: 20px;
+}
 
 #inline-textarea {
     display: flex;
