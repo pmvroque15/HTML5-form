@@ -26,9 +26,9 @@
           <div id="first-row">
           <fieldset>
             <div class="row g-3">
-              <div class="col-sm-7">
+              <div class="col-sm-6">
                 <label>Card #</label>
-                <input type="text" class="form-control" />
+                <input type="text" class="form-control" placeholder="XXXXXXXXXXXX" />
               </div>
               <div class="col-sm">
                 <label>CVC #</label>
@@ -56,7 +56,7 @@
         </div>
         <div id="inline-form">
           <div class="row g-3">
-            <div class="col-sm-7">
+            <div class="col-sm-6">
               <label>City</label>
               <input
                 type="text"
@@ -82,6 +82,7 @@
         <div id="inline-textarea">
           <div>
             <div><p>We Accept:</p></div>
+            <div id="gray-input">
             <div class="form-check form-check-inline">
               <input
                 class="form-check-input"
@@ -118,6 +119,7 @@
               />
               <label class="form-check-label" for="inlineCheckbox3"><i class="fa-brands fa-cash-app"></i> </label>
             </div>
+            </div>
           </div>
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label" id="stretch-textarea"
@@ -129,6 +131,10 @@
               rows="3"
             ></textarea>
           </div>
+        </div>
+        <div id="bottom-button">
+         <button type="button" class="btn btn-secondary" id="margin-right">Secondary</button>
+          <button type="button" class="btn btn-primary">Primary</button>
         </div>
       </div>
     </form>

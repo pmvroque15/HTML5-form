@@ -79,3 +79,24 @@ h3 {
 #inline-textarea textarea {
     width: 100%;
 }
+
+#gray-input {
+    background-color: rgb(228, 227, 227);
+    border-radius: 2px;
+    padding-left: 10px;
+}
+
+#bottom-button {
+    display: flex;
+    justify-content: end;
+
+
+    padding: 10px 5px 10px 5px;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    border-top: 1px solid rgb(158, 154, 154);
+}
+
+#margin-right  {
+    margin-right: 5px;
+}
